@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Work Sans', sans-serif;
+}
+.container {
+  background-image: url(images/diliara-garifullina-4IsJxaeNT_w-unsplash.jpg);
+  width: 400px;
+  height:auto;
+  margin: 0 auto;
+  border-radius: 75px;
+  background-size: cover;
+}
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
+.head {
+  max-width: 350px;
+  margin: 25px 25px;
+  border-radius: 75px;
+  text-align: center;
+  padding: 25px;
+  box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.475);
+  background: rgba(248, 212, 210, 0.244);
+  color: rgb(12,30,129);
+}
+.description {
+  max-width: 350px;
+  margin: 15px 25px;
+  border-radius: 75px;
+  text-align: center;
+  font-weight: bold;
+  padding: 25px;
+  box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.475);
+  background: rgb(236,161,227 0.244);
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 4px 10px black;
+}
+.footer {
+  max-width: 350px;
+  height: 100px;
+  margin: 15px 25px;
+  border-radius: 75px;
+  text-align: center;
+  padding: 50px;
+  box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.475);
+  background: rgb(248,212,210 0.244);
+  color: rgb(12,30,129);
+}
+.btn {
+  box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.475);
+  border-radius: 25px;
+  padding: 10px;
+  margin: auto;
+  background-color: rgb(156, 19, 51);
+  color: black;
+  /* border: 2px solid rgb(12,30,129); */
+}
+.btn:hover {
+  background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+  color: rgb(12,30,129);
+};
+.icons {
+  margin: 5px auto;
+  padding: 10px;
+  text-align: center;
+
+}
+h1 {
+  color: rgb(156, 19, 51);
+  font-weight: bold;
+  font-size: 38px;
+  word-spacing: -0.8px;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: none;
+  font-family: 'Satisfy', cursive;
+  text-shadow: 2px 2px 2px black;
+}
+h2 {
+  color: rgb(12,30,129);
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(156, 19, 51);
+  display: block;
+}
+a:hover {
+  background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+  border-radius: 50px;
+}
+.fa-brands {
+  margin-top: 10px;
+}
+.video {
+  object-fit: cover;
+  width: auto;
+  height: auto;
+}
